@@ -1,5 +1,26 @@
 # dynamicVH
 Create VirtualHost for Apache 
+
+
+Available for: [![](https://img.shields.io/badge/OS-Ubuntu-orange?style=flat&logo=linux&logoColor=black)](https://ubuntu.com/)
+
+
+
+What it does:
+
+* Create conf into apache site-available/, 
+* append local server name on hosts file,
+* enable site 
+* reload apache
+_____
+* List enabled sites
+
+
+
+
+
+
+
 ```
 
      _                                  _                         
