@@ -1,10 +1,10 @@
-# dynamicVH
-Create VirtualHost for Apache 
+### dynamicVH
+### Create VirtualHost for Apache 
 
 
 Available for: [![](https://img.shields.io/badge/OS-Ubuntu-orange?style=flat&logo=linux&logoColor=black)](https://ubuntu.com/)
 
-Script prompt you to enter:
+#### Script prompt you to enter:
 * VirtualHost name (ex:  my_Virtual_Host)
 * ServerName
 * ServerAlias (ex: virtual_host.local)
@@ -16,10 +16,10 @@ Script prompt you to enter:
 * Absolute path of of your project
 
 
-What it does:
+#### What it does:
 
 * Create conf into apache site-available/,
-* Create symbolic link in DOC_ROT
+* Create symbolic link in Document Root
 * append local server name on hosts file,
 * enable site 
 * reload apache
