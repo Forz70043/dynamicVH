@@ -4,11 +4,22 @@ Create VirtualHost for Apache
 
 Available for: [![](https://img.shields.io/badge/OS-Ubuntu-orange?style=flat&logo=linux&logoColor=black)](https://ubuntu.com/)
 
+Script prompt you to enter:
+* VirtualHost name (ex:  my_Virtual_Host)
+* ServerName
+* ServerAlias (ex: virtual_host.local)
+* Apache Document Root: (ex: /var/www/html)
+* Server Admin email 
+* Error Log name
+* Custom Log name
+* IP Server (ex 127.0.0.1)
+* Absolute path of of your project
 
 
 What it does:
 
-* Create conf into apache site-available/, 
+* Create conf into apache site-available/,
+* Create symbolic link in DOC_ROT
 * append local server name on hosts file,
 * enable site 
 * reload apache
