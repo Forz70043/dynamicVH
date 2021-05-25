@@ -7,12 +7,6 @@ Available for: [![](https://img.shields.io/badge/OS-Ubuntu-orange?style=flat&log
 
 
 
-
-
-
-
-
-
 #### Script prompt you to enter:
 * VirtualHost name (ex:  my_Virtual_Host)
 * ServerName
@@ -32,7 +26,6 @@ Available for: [![](https://img.shields.io/badge/OS-Ubuntu-orange?style=flat&log
 * append local server name on hosts file,
 * enable site 
 * reload apache
-_____
 * List enabled sites
 
 
